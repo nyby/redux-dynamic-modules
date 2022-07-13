@@ -1,6 +1,6 @@
 {
     "name": "@nyby/redux-dynamic-modules-saga",
-    "version": "5.3.4",
+    "version": "5.3.5",
     "description": "Saga Extension for redux-dynamic-modules",
     "repository": {
         "type": "github",
@@ -64,5 +64,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "e3a197fbf4a14672757bacf210917307aa5f18f7"
 }
