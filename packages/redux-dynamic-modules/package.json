@@ -48,8 +48,8 @@
         "redux": ">= 3.0.0"
     },
     "dependencies": {
-        "redux-dynamic-modules-core": "^5.2.3",
-        "redux-dynamic-modules-react": "^5.2.3"
+        "@nyby/redux-dynamic-modules-core": "^5.2.3",
+        "@nyby/redux-dynamic-modules-react": "^5.2.3"
     },
     "publishConfig": {
         "access": "public"
