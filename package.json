@@ -1,5 +1,5 @@
 {
-    "name": "root",
+    "name": "@nyby/redux-dynamic-modules",
     "scripts": {
         "bootstrap": "lerna bootstrap --no-ci",
         "publish": "lerna publish",
