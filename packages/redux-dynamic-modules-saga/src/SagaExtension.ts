@@ -13,7 +13,7 @@ import { sagaEquals } from "./SagaComparer";
  * Get an extension that integrates saga with the store
  * @param sagaContext The context to provide to the saga
  */
-export function getSagaExtension<C>(
+export function getSagaExtension<C extends object = {}>(
     sagaContext?: C,
     onError?: (error: Error) => void
 ): IExtension {
