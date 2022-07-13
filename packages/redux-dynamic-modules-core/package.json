@@ -61,5 +61,5 @@
         "redux-devtools-extension": "^2.13.7",
         "redux-dynamic-middlewares": "^2.2.0"
     },
-    "gitHead": "2e669bf02b39b623e7a00c6b0481f8e920b6968b"
+    "gitHead": "251df7364db0e2d19066581ef0531cda194bb943"
 }
