@@ -1,6 +1,6 @@
 {
     "name": "redux-dynamic-modules-core",
-    "version": "5.2.3",
+    "version": "5.3",
     "description": "Modularize the redux app by dynamically loading reducers, state and sagas",
     "repository": {
         "type": "github",
@@ -10,8 +10,8 @@
     "types": "./lib/index.d.ts",
     "scripts": {
         "prepublish": "npm run build:prod && npm run test",
-        "build": "npm run clean && tsc && webpack --mode development --display-modules --progress --display-error-details",
-        "build:prod": "npm run clean && tsc && webpack --mode development --display-error-details && webpack --mode production --display-modules --progress --display-error-details",
+        "build": "npm run clean && tsc && webpack --mode development --display-modules --progress",
+        "build:prod": "npm run clean && tsc && webpack --mode development && webpack --mode production --display-modules --progress",
         "clean": "rimraf lib/ dist/",
         "test": "jest"
     },
