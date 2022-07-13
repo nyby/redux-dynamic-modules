@@ -5,7 +5,7 @@ import {
     StoreEnhancer,
     ReducersMapObject,
     Reducer,
-    compose,
+    compose
 } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
 import { getMiddlewareManager } from "./Managers/MiddlewareManager";
@@ -136,7 +136,7 @@ export function createStore<State>(
     // Create store
     const store: IModuleStore<State> = createReduxStore<State, any, {}, {}>(
         moduleManager.getReducer,
-        initialState,
+        initialState as any,
         enhancer as any
     ) as IModuleStore<State>;
 
