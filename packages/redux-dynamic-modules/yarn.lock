@@ -553,6 +553,24 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@nyby/redux-dynamic-modules-core@^5.3.6":
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/@nyby/redux-dynamic-modules-core/-/redux-dynamic-modules-core-5.3.6.tgz#27d8588be730625286f40968672bd2b5a213a8e8"
+  integrity sha512-1TojrkqZNRYfBgoJUBX7L1wVkPl6lhq51muTLFzo3I06F4YW9IeFrNgznkT4QGRbNJT98M/h91FhjrDjIOHPcg==
+  dependencies:
+    redux-devtools-extension "^2.13.7"
+    redux-dynamic-middlewares "^2.2.0"
+
+"@nyby/redux-dynamic-modules-react@^5.3.6":
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/@nyby/redux-dynamic-modules-react/-/redux-dynamic-modules-react-5.3.6.tgz#a9e1aebde9bcae6ea4d930a46afccb75d674018c"
+  integrity sha512-g5hGy5mlavikc6zT5KvkJ+2XGHdsKQmu+c4Uwu6/DwDmweF3Jym4vJqImwLLzr3MX+4ZehTclMcjHJrJxH/QjQ==
+  dependencies:
+    "@nyby/redux-dynamic-modules-core" "^5.3.6"
+    redux-devtools-extension "^2.13.7"
+    redux-dynamic-middlewares "^2.2.0"
+    redux-dynamic-modules-core "^5.2.3"
+
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
@@ -2697,22 +2715,18 @@ redux-dynamic-middlewares@^1.0.0:
   resolved "https://registry.yarnpkg.com/redux-dynamic-middlewares/-/redux-dynamic-middlewares-1.0.0.tgz#a4c5859a6018a1d7fab3bdd4989f51095c806d15"
   integrity sha512-smX1eY17dH90FVtXL6JPW01on1ptP4SOlkDYON5Lka52RNcZfgWM6hvtoZKA3O+dZL2/ytbS+tHo2gdKln5iHw==
 
-redux-dynamic-modules-core@5.2.3, redux-dynamic-modules-core@^5.2.3:
+redux-dynamic-middlewares@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/redux-dynamic-middlewares/-/redux-dynamic-middlewares-2.2.0.tgz#6835dd6d4f2fd975266376b45dcae0141320ae97"
+  integrity sha512-GHESQC+Y0PV98ZBoaC6br6cDOsNiM1Cu4UleGMqMWCXX03jIr3BoozYVrRkLVVAl4sC216chakMnZOu6SwNdGA==
+
+redux-dynamic-modules-core@^5.2.3:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/redux-dynamic-modules-core/-/redux-dynamic-modules-core-5.2.3.tgz#ebee39513c6e605fdf940a61e77ccc65d104c035"
   integrity sha512-4UyJY+r9llTYO2AJj/HMY2M/FPvcks169V3o0wUr1ViIFC8cmNsq9f1DRsNqI2Ns57hAvpvdd8fU6nm+GczRnw==
   dependencies:
     redux-devtools-extension "^2.13.7"
     redux-dynamic-middlewares "^1.0.0"
-
-redux-dynamic-modules-react@^5.2.3:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/redux-dynamic-modules-react/-/redux-dynamic-modules-react-5.2.3.tgz#91e97a48474beecf59e53fc9f43bde01cb96eb2f"
-  integrity sha512-JuRBjjTL0WAcTu0sdTVghTrxWHc8G9d4cLzUy5m3m51ycW3W7hnq2mZNo/eaoIADYtMMWtpnhEm+z9KeNyp0kA==
-  dependencies:
-    redux-devtools-extension "^2.13.7"
-    redux-dynamic-middlewares "^1.0.0"
-    redux-dynamic-modules-core "^5.2.3"
 
 redux@*, redux@4.2.0, redux@^4.0.0:
   version "4.2.0"

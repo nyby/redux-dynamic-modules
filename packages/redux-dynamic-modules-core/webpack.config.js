@@ -1,7 +1,3 @@
-let webpack = require("webpack");
-let BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-    .BundleAnalyzerPlugin;
-
 module.exports = (env, argv) => {
     let mode_env = argv.mode || "development";
 
@@ -25,13 +21,6 @@ module.exports = (env, argv) => {
             "prop-types": "prop-types",
             react: "react",
             redux: "redux",
-        },
-        plugins: [
-            new BundleAnalyzerPlugin({
-                analyzerMode: "static",
-                reportFilename: `react-redux-module.stats.html`,
-                openAnalyzer: false,
-            }),
-        ],
+        }
     };
 };
