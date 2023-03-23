@@ -1,12 +1,8 @@
 import * as React from "react";
 //@ts-ignore // ReactReduxContext is not officially exported
-import { Provider, ReactReduxContext } from "react-redux";
+import {Provider, ReactReduxContext} from "react-redux";
 
-import {
-    IDynamicallyAddedModule,
-    IModuleStore,
-    IModuleTuple,
-} from "@nyby/redux-dynamic-modules-core";
+import {IDynamicallyAddedModule, IModuleStore, IModuleTuple,} from "@nyby/redux-dynamic-modules-core";
 
 export interface IDynamicModuleLoaderProps {
     /** Modules that need to be dynamically registerd */
@@ -22,7 +18,7 @@ export interface IDynamicModuleLoaderProps {
 
     /** Optional callback which returns a store instance. This would be called if no store could be loaded from th  e context. */
     createStore?: () => IModuleStore<any>;
-    children?: React.ReactNode;
+    children?: (()=>React.ReactNode) | React.ReactNode;
 }
 
 /**
