@@ -1,6 +1,6 @@
 {
     "name": "@nyby/redux-dynamic-modules-saga",
-    "version": "5.3.8",
+    "version": "5.3.9",
     "description": "Saga Extension for redux-dynamic-modules",
     "repository": {
         "type": "github",
@@ -25,7 +25,7 @@
     "author": "Navneet Gupta (Microsoft), Alex Bettadapur (Facebook)",
     "license": "MIT",
     "devDependencies": {
-        "@nyby/redux-dynamic-modules-core": "^5.3.8",
+        "@nyby/redux-dynamic-modules-core": "^5.3.9",
         "@types/jest": "28.1.5",
         "@types/redux": "3.6.0",
         "@types/redux-saga": "0.10.5",
