@@ -22,7 +22,7 @@ export interface IDynamicModuleLoaderProps {
 
     /** Optional callback which returns a store instance. This would be called if no store could be loaded from th  e context. */
     createStore?: () => IModuleStore<any>;
-    children?: () => React.ReactNode | React.ReactNode;
+    children?: React.ReactNode;
 }
 
 /**
