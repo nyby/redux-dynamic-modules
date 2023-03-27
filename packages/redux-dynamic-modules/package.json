@@ -1,6 +1,6 @@
 {
     "name": "@nyby/redux-dynamic-modules",
-    "version": "5.3.16",
+    "version": "5.3.19",
     "description": "Modularize the redux app by dynamically loading reducers, state and sagas",
     "repository": {
         "type": "github",
@@ -47,8 +47,8 @@
         "redux": ">= 3.0.0"
     },
     "dependencies": {
-        "@nyby/redux-dynamic-modules-core": "^5.3.16",
-        "@nyby/redux-dynamic-modules-react": "^5.3.16"
+        "@nyby/redux-dynamic-modules-core": "^5.3.19",
+        "@nyby/redux-dynamic-modules-react": "^5.3.19"
     },
     "publishConfig": {
         "access": "public"

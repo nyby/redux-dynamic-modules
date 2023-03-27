@@ -1,6 +1,6 @@
 {
     "name": "@nyby/redux-dynamic-modules-thunk",
-    "version": "5.3.16",
+    "version": "5.3.19",
     "description": "Thunk Extension for redux-dynamic-modules",
     "repository": {
         "type": "github",
@@ -23,7 +23,7 @@
     "author": "Navneet Gupta (Microsoft), Alex Bettadapur (Facebook)",
     "license": "MIT",
     "devDependencies": {
-        "@nyby/redux-dynamic-modules-core": "^5.3.16",
+        "@nyby/redux-dynamic-modules-core": "^5.3.19",
         "@types/jest": "28.1.5",
         "@types/redux": "3.6.0",
         "jest": "28.1.2",

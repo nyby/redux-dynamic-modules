@@ -3,7 +3,7 @@
         "packages/*"
     ],
     "hoist": true,
-    "version": "5.3.18",
+    "version": "5.3.19",
     "command": {
         "publish": {
             "allowBranch": "master"
