@@ -1,6 +1,6 @@
 {
     "name": "@nyby/redux-dynamic-modules-core",
-    "version": "5.3.9",
+    "version": "5.3.16",
     "description": "Modularize the redux app by dynamically loading reducers, state and sagas",
     "repository": {
         "type": "github",
@@ -62,5 +62,8 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "d876c16e00b32a345f9950b81d57ae4d75bf9b19"
+    "gitHead": "d876c16e00b32a345f9950b81d57ae4d75bf9b19",
+    "files": [
+        "lib/**"
+    ]
 }
